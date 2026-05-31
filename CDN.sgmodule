@@ -1,4 +1,5 @@
 #!name=CDN
+#!desc=2026
 
 [Host]
 *.douban01.45090135.xyz = server:https://anycast.xhspic.com/5428ab28
