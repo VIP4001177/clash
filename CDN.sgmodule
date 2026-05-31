@@ -1,0 +1,8 @@
+#!url=
+#!name=CDN
+#!desc=CDN
+
+[Host]
+*.douban01.45090135.xyz = server:https://anycast.xhspic.com/5428ab28
+*.douban02.45090135.xyz = server:https://anycast.xhspic.com/5428ab28
+*.douban03.45090135.xyz = server:https://anycast.xhspic.com/5428ab28
