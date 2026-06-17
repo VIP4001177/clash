@@ -1,18 +1,20 @@
 #!name=抖音IP归属地
 #!desc=2026
+
 [Rule]
-#视频、图片、播放CDN强制直连
+#视频直连
 DOMAIN-SUFFIX,douyinvod.com,DIRECT
 DOMAIN-SUFFIX,douyincdn.com,DIRECT
 DOMAIN-SUFFIX,douyinpic.com,DIRECT
-#直播相关全部直连
+
+#直播直连
 DOMAIN,live.douyin.com,DIRECT
 DOMAIN,webcast.amemv.com,DIRECT
 DOMAIN-KEYWORD,douyin-live,DIRECT
 DOMAIN-KEYWORD,live-douyin,DIRECT
 DOMAIN-KEYWORD,webcast,DIRECT
 
-#下面所有内容完全沿用你原本的代理规则一字不动
+#发评论代理、发作品代理
 DOMAIN-SUFFIX,snssdk.com,PROXY
 DOMAIN-SUFFIX,toutiaoapi.com,PROXY
 DOMAIN-SUFFIX,zijieapi.com,PROXY
