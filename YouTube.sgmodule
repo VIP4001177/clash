@@ -22,3 +22,7 @@ youtube.response = type=http-response, pattern=^https?:\/\/youtubei\.googleapis\
 
 [MITM]
 hostname = %APPEND% -redirector*.googlevideo.com, *.googlevideo.com, www.youtube.com, s.youtube.com, youtubei.googleapis.com
+
+[Rule]
+# 拦截 QUIC 协议，迫使 YouTube 降级到 TCP，从而完美去广告
+REJECT,DEST-PORT=443,PROTOCOL=UDP
