@@ -19,6 +19,7 @@ youtube.response = type=http-response, pattern=^https?:\/\/youtubei\.googleapis\
 ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads data=" " status-code=200
 ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) data=" " status-code=200
 ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext data=" " status-code=200
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player\/ad_break data=" " status-code=200
 
 [MITM]
 hostname = %APPEND% -redirector*.googlevideo.com, *.googlevideo.com, www.youtube.com, s.youtube.com, youtubei.googleapis.com
