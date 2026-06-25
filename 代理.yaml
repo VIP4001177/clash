@@ -1,2 +1,0 @@
-proxies:
-  - {name: 🇲🇻 马尔代夫 高级 01, type: ss, server: cdcfe0bb-7615-43ea-8dce-1516aa8852fc.sankuaei.com, port: 20066, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 3d737a691a66.microsoft.com}, udp: true}
