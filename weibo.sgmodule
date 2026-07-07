@@ -1,0 +1,17 @@
+#!name=微博IP归属地
+#!desc=2026
+[Rule]
+DOMAIN-SUFFIX,upload.api.weibo.com,Proxy
+DOMAIN-SUFFIX,api.weibo.com,Proxy
+DOMAIN-SUFFIX,live.weibo.com,Proxy
+DOMAIN-SUFFIX,barrage.api.weibo.com,Proxy
+DOMAIN-SUFFIX,open-im.api.weibo.com,Proxy
+DOMAIN-SUFFIX,weibo.cn,DIRECT
+DOMAIN-SUFFIX,weibo.com,DIRECT
+DOMAIN-SUFFIX,video.weibo.com,DIRECT
+DOMAIN-SUFFIX,wbimg.cn,DIRECT
+DOMAIN-SUFFIX,wbimg.com,DIRECT
+DOMAIN-SUFFIX,weibocdn.com,DIRECT
+DOMAIN-SUFFIX,wx.sinaimg.cn,DIRECT
+DOMAIN-SUFFIX,ws.sinaimg.cn,DIRECT
+DOMAIN-SUFFIX,orj.sinaimg.cn,DIRECT
