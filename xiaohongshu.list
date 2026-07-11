@@ -1,8 +1,4 @@
-# NAME: xiaohongshuProxy
-# AUTHOR: custom
-# UPDATED: 2026-07-11
-
-# Ð¡ºìÊé / ÆÀÂÛ / ·¢²¼ / ÉÏ´« / ÓÃ»§½Ó¿Ú´úÀí
+# å°çº¢ä¹¦ / è¯„è®º / å‘å¸ƒ / ä¸Šä¼  / ç”¨æˆ·æŽ¥å£ä»£ç†
 DOMAIN-SUFFIX,api.xiaohongshu.com
 DOMAIN-SUFFIX,edith.xiaohongshu.com
 DOMAIN-SUFFIX,rec.xiaohongshu.com
