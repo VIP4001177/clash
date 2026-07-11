@@ -2,7 +2,7 @@
 # AUTHOR: custom
 # UPDATED: 2026-07-11
 
-# ¶¶ÒôÆÀÂÛ / ·¢²¼ / ÉÏ´« / ÓÃ»§½Ó¿Ú´úÀí
+# æŠ–éŸ³ / è¯„è®º / å‘å¸ƒ / ä¸Šä¼  / ç”¨æˆ·æ¥å£ä»£ç†
 DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,toutiaoapi.com
 DOMAIN-SUFFIX,zijieapi.com
@@ -16,3 +16,16 @@ DOMAIN-KEYWORD,aweme-comment
 DOMAIN-KEYWORD,aweme-publish
 DOMAIN-KEYWORD,aweme-upload
 DOMAIN-KEYWORD,byteupload
+
+# å°çº¢ä¹¦ / è¯„è®º / å‘å¸ƒ / ä¸Šä¼  / ç”¨æˆ·æ¥å£ä»£ç†
+DOMAIN-SUFFIX,api.xiaohongshu.com
+DOMAIN-SUFFIX,edith.xiaohongshu.com
+DOMAIN-SUFFIX,rec.xiaohongshu.com
+DOMAIN-SUFFIX,msg.xiaohongshu.com
+DOMAIN-SUFFIX,chat.xiaohongshu.com
+DOMAIN-SUFFIX,user.xiaohongshu.com
+DOMAIN-SUFFIX,profile.xiaohongshu.com
+DOMAIN-SUFFIX,www.xiaohongshu.com
+DOMAIN-SUFFIX,ros-upload.xiaohongshu.com
+DOMAIN-SUFFIX,upload.xiaohongshu.com
+DOMAIN-SUFFIX,upload-vod.xiaohongshu.com
