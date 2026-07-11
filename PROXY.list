@@ -2,7 +2,7 @@
 # AUTHOR: custom
 # UPDATED: 2026-07-11
 
-# 鎶栭煶 / 璇勮 / 鍙戝竷 / 涓婁紶 / 鐢ㄦ埛鎺ュ彛浠ｇ悊
+# 抖音 / 评论 / 发布 / 上传 / 用户接口代理
 DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,toutiaoapi.com
 DOMAIN-SUFFIX,zijieapi.com
@@ -17,6 +17,7 @@ DOMAIN-KEYWORD,aweme-publish
 DOMAIN-KEYWORD,aweme-upload
 DOMAIN-KEYWORD,byteupload
 
+# 小红书 / 评论 / 发布 / 上传 / 用户接口代理
 DOMAIN-SUFFIX,api.xiaohongshu.com
 DOMAIN-SUFFIX,edith.xiaohongshu.com
 DOMAIN-SUFFIX,rec.xiaohongshu.com
