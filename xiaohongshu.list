@@ -1,4 +1,4 @@
-# 小红书 / 评论 / 发布 / 上传 / 用户接口代理
+# 小红书 / 评论 / 发布 / 上传 / 用户API接口
 DOMAIN-SUFFIX,api.xiaohongshu.com
 DOMAIN-SUFFIX,edith.xiaohongshu.com
 DOMAIN-SUFFIX,rec.xiaohongshu.com
