@@ -9,22 +9,3 @@ DOMAIN,webcast.amemv.com
 DOMAIN-KEYWORD,douyin-live
 DOMAIN-KEYWORD,live-douyin
 DOMAIN-KEYWORD,webcast
-
-# 小红书直连
-DOMAIN-SUFFIX,ci.xiaohongshu.com
-DOMAIN-SUFFIX,picasso-static.xiaohongshu.com
-DOMAIN-SUFFIX,static.xiaohongshu.com
-DOMAIN-SUFFIX,img.xiaohongshu.com
-DOMAIN-SUFFIX,img-cdn.xiaohongshu.com
-DOMAIN-SUFFIX,live.xiaohongshu.com
-DOMAIN-SUFFIX,live-room.xiaohongshu.com
-DOMAIN-SUFFIX,play.xiaohongshu.com
-DOMAIN-SUFFIX,play-vod.xiaohongshu.com
-DOMAIN-SUFFIX,pull.xiaohongshu.com
-DOMAIN-SUFFIX,pull-hls.xiaohongshu.com
-DOMAIN-SUFFIX,xhslink.com
-DOMAIN-SUFFIX,so.xiaohongshu.com
-DOMAIN-SUFFIX,miniprogram.xiaohongshu.com
-DOMAIN-SUFFIX,pages.xiaohongshu.com
-DOMAIN-SUFFIX,redbascket.com
-DOMAIN-SUFFIX,redimg.com
