@@ -2,12 +2,12 @@
 # AUTHOR: custom
 # UPDATED: 2026-07-11
 
-# 抖音视频直连
+# 鎶栭煶瑙嗛鐩磋繛
 DOMAIN-SUFFIX,douyinvod.com
 DOMAIN-SUFFIX,douyincdn.com
 DOMAIN-SUFFIX,douyinpic.com
 
-# 抖音直播直连
+# 鎶栭煶鐩存挱鐩磋繛
 DOMAIN,live.douyin.com
 DOMAIN,webcast.amemv.com
 DOMAIN-KEYWORD,douyin-live
