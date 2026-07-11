@@ -7,12 +7,12 @@
 # TOTAL: 8
 
 payload:
-  # 视频直连
+  # 鎶栭煶瑙嗛鐩磋繛
   - DOMAIN-SUFFIX,douyinvod.com
   - DOMAIN-SUFFIX,douyincdn.com
   - DOMAIN-SUFFIX,douyinpic.com
 
-  # 直播直连
+  # 鎶栭煶鐩存挱鐩磋繛
   - DOMAIN,live.douyin.com
   - DOMAIN,webcast.amemv.com
   - DOMAIN-KEYWORD,douyin-live
