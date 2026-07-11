@@ -1,0 +1,23 @@
+# NAME: DouYinProxy
+# AUTHOR: custom
+# UPDATED: 2026-07-11
+# DOMAIN: 2
+# DOMAIN-KEYWORD: 5
+# DOMAIN-SUFFIX: 6
+# TOTAL: 13
+
+payload:
+  # 抖音评论 / 发布 / 上传 / 用户接口代理
+  - DOMAIN-SUFFIX,snssdk.com
+  - DOMAIN-SUFFIX,toutiaoapi.com
+  - DOMAIN-SUFFIX,zijieapi.com
+  - DOMAIN-SUFFIX,byteoversea.com
+  - DOMAIN-SUFFIX,aweme.com
+  - DOMAIN-SUFFIX,amemv.com
+  - DOMAIN,sso.douyin.com
+  - DOMAIN,api-douyin.com
+  - DOMAIN-KEYWORD,aweme-user
+  - DOMAIN-KEYWORD,aweme-comment
+  - DOMAIN-KEYWORD,aweme-publish
+  - DOMAIN-KEYWORD,aweme-upload
+  - DOMAIN-KEYWORD,byteupload
