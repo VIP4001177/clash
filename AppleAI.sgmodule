@@ -4,20 +4,23 @@
 [Rule]
 
 # iOS系统更新直连
-DOMAIN-SUFFIX,mesu.apple.com,DIRECT
-DOMAIN-SUFFIX,updates.cdn-apple.com,DIRECT
-DOMAIN-SUFFIX,gdmf.apple.com,DIRECT
-DOMAIN-SUFFIX,appldnld.apple.com,DIRECT
+DOMAIN,mesu.apple.com,DIRECT
+DOMAIN,updates.cdn-apple.com,DIRECT
+DOMAIN,gdmf.apple.com,DIRECT
+DOMAIN,appldnld.apple.com,DIRECT
+
+# 中国区Apple服务直连
+DOMAIN-SUFFIX,apple.com.cn,DIRECT
 
 # Apple Intelligence / Siri AI核心
 DOMAIN-SUFFIX,guzzoni.apple.com,Proxy
+DOMAIN-SUFFIX,smoot.apple.com,Proxy
 DOMAIN-SUFFIX,apple-relay.apple.com,Proxy
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com,Proxy
 DOMAIN-SUFFIX,apple-relay.cloudflare.com,Proxy
 
 # iCloud AI通信
 DOMAIN-SUFFIX,gateway.icloud.com,Proxy
-DOMAIN-SUFFIX,icloud.com,Proxy
 DOMAIN-SUFFIX,icloud-content.com,Proxy
 
 # Apple AI验证与后台
