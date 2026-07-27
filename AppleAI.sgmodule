@@ -1,0 +1,33 @@
+#!name=Apple AI
+#!desc=外版设备使用内置AI服务
+
+[Rule]
+
+# Apple Intelligence / Siri AI核心
+DOMAIN-SUFFIX,guzzoni.apple.com,Proxy
+DOMAIN-SUFFIX,apple-relay.apple.com,Proxy
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com,Proxy
+DOMAIN-SUFFIX,apple-relay.cloudflare.com,Proxy
+
+# iCloud AI通信
+DOMAIN-SUFFIX,gateway.icloud.com,Proxy
+DOMAIN-SUFFIX,icloud.com,Proxy
+DOMAIN-SUFFIX,icloud-content.com,Proxy
+
+# Apple AI验证与后台
+DOMAIN-SUFFIX,ess.apple.com,Proxy
+DOMAIN-SUFFIX,push.apple.com,Proxy
+DOMAIN-SUFFIX,cp4.cloudflare.com,Proxy
+
+# Siri / 定位 / AI辅助服务
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com,Proxy
+DOMAIN-SUFFIX,ls.apple.com,Proxy
+
+# App资源及模型下载
+DOMAIN-SUFFIX,apps.mzstatic.com,Proxy
+DOMAIN-SUFFIX,itunes.apple.com,Proxy
+DOMAIN-SUFFIX,cdn-apple.com,Proxy
+
+# Apple账号认证
+DOMAIN-SUFFIX,appleid.apple.com,Proxy
+DOMAIN-SUFFIX,account.apple.com,Proxy
