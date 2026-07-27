@@ -1,5 +1,5 @@
 #!name=微博IP归属地
-#!desc=2026
+#!desc=社交软件
 [Rule]
 DOMAIN-SUFFIX,weibo.cn,Proxy
 DOMAIN-SUFFIX,weibo.com,Proxy
