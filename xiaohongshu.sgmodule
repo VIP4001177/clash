@@ -1,5 +1,5 @@
 #!name=小红书IP归属地
-#!desc=2026
+#!desc=社交软件
 
 [Rule]
 DOMAIN-SUFFIX,api.xiaohongshu.com,Proxy
