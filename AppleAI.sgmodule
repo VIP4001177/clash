@@ -1,7 +1,13 @@
 #!name=Apple AI
-#!desc=外版设备使用内置AI服务
+#!desc=港版+美版+内置AI服务
 
 [Rule]
+
+# iOS系统更新直连
+DOMAIN-SUFFIX,mesu.apple.com,DIRECT
+DOMAIN-SUFFIX,updates.cdn-apple.com,DIRECT
+DOMAIN-SUFFIX,gdmf.apple.com,DIRECT
+DOMAIN-SUFFIX,appldnld.apple.com,DIRECT
 
 # Apple Intelligence / Siri AI核心
 DOMAIN-SUFFIX,guzzoni.apple.com,Proxy
