@@ -1,5 +1,5 @@
 #!name=APP启动页去广告
-#!desc=通用版
+#!desc=AD
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/startingad.png
 [URL Rewrite]
 https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNotices) reject-200
