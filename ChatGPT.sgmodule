@@ -3,51 +3,51 @@
 
 [Rule]
 
-# OpenAI
+# ChatGPT
 DOMAIN,browser-intake-datadoghq.com,Proxy
+DOMAIN,rum.browser-intake-datadoghq.com,Proxy
 DOMAIN,chat.openai.com.cdn.cloudflare.net,Proxy
+DOMAIN,chat.openai.com,Proxy
 DOMAIN,openai-api.arkoselabs.com,Proxy
 DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,Proxy
 DOMAIN,openaicomproductionae4b.blob.core.windows.net,Proxy
 DOMAIN,production-openaicom-storage.azureedge.net,Proxy
 DOMAIN,static.cloudflareinsights.com,Proxy
 
-DOMAIN-SUFFIX,ai.com,Proxy
-DOMAIN-SUFFIX,algolia.net,Proxy
-DOMAIN-SUFFIX,api.statsig.com,Proxy
-DOMAIN-SUFFIX,auth0.com,Proxy
 DOMAIN-SUFFIX,chatgpt.com,Proxy
-DOMAIN-SUFFIX,chatgpt.livekit.cloud,Proxy
-DOMAIN-SUFFIX,client-api.arkoselabs.com,Proxy
-DOMAIN-SUFFIX,events.statsigapi.net,Proxy
-DOMAIN-SUFFIX,featuregates.org,Proxy
-DOMAIN-SUFFIX,host.livekit.cloud,Proxy
-DOMAIN-SUFFIX,identrust.com,Proxy
-DOMAIN-SUFFIX,intercom.io,Proxy
-DOMAIN-SUFFIX,intercomcdn.com,Proxy
-DOMAIN-SUFFIX,launchdarkly.com,Proxy
+DOMAIN-SUFFIX,chat.openai.com,Proxy
+DOMAIN-SUFFIX,auth.openai.com,Proxy
 DOMAIN-SUFFIX,oaistatic.com,Proxy
 DOMAIN-SUFFIX,oaiusercontent.com,Proxy
-DOMAIN-SUFFIX,observeit.net,Proxy
 DOMAIN-SUFFIX,openai.com,Proxy
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net,Proxy
-DOMAIN-SUFFIX,openaicom.imgix.net,Proxy
-DOMAIN-SUFFIX,segment.io,Proxy
-DOMAIN-SUFFIX,sentry.io,Proxy
-DOMAIN-SUFFIX,stripe.com,Proxy
-DOMAIN-SUFFIX,turn.livekit.cloud,Proxy
+DOMAIN-SUFFIX,oaistatsig.com,Proxy
+DOMAIN-SUFFIX,intercom.io,Proxy
+DOMAIN-SUFFIX,intercomcdn.com,Proxy
+DOMAIN-SUFFIX,openaimerge.com,Proxy
+DOMAIN-SUFFIX,workos.com,Proxy
+DOMAIN-SUFFIX,workoscdn.com,Proxy
+
+DOMAIN,cdn.openaimerge.com,Proxy
+DOMAIN,cdn.workos.com,Proxy
+DOMAIN,forwarder.workos.com,Proxy
+DOMAIN,setup.auth.openai.com,Proxy
+DOMAIN,setup.workos.com,Proxy
+DOMAIN,images.workoscdn.com,Proxy
+DOMAIN,workos.imgix.net,Proxy
+DOMAIN,js.intercomcdn.com,Proxy
+DOMAIN,js.stripe.com,Proxy
+DOMAIN,o207216.ingest.sentry.io,Proxy
+DOMAIN,o33249.ingest.sentry.io,Proxy
 
 DOMAIN-KEYWORD,openai,Proxy
 DOMAIN-KEYWORD,openaicom-api,Proxy
 
-IP-CIDR,24.199.123.28/32,no-resolve
-IP-CIDR,64.23.132.171/32,no-resolve
-IP-ASN,20473,no-resolve
 
-
-# Google Gemini
+# Gemini
 DOMAIN,gemini.google.com,Proxy
+DOMAIN,aistudio.google.com,Proxy
 DOMAIN,ai.google.dev,Proxy
+DOMAIN,generativelanguage.googleapis.com,Proxy
 DOMAIN,alkalimakersuite-pa.clients6.google.com,Proxy
 DOMAIN,makersuite.google.com,Proxy
 
@@ -56,14 +56,17 @@ DOMAIN-SUFFIX,deepmind.com,Proxy
 DOMAIN-SUFFIX,deepmind.google,Proxy
 DOMAIN-SUFFIX,generativeai.google,Proxy
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,Proxy
-DOMAIN-SUFFIX,apis.google.com,Proxy
 
 DOMAIN-KEYWORD,colab,Proxy
 DOMAIN-KEYWORD,developerprofiles,Proxy
-DOMAIN-KEYWORD,generativelanguage,Proxy
 
 
-# Bing AI
+# Grok
+DOMAIN-SUFFIX,grok.com,Proxy
+DOMAIN-SUFFIX,x.ai,Proxy
+
+
+# Bing
 DOMAIN,api.msn.com,Proxy
 DOMAIN,assets.msn.com,Proxy
 DOMAIN,copilot.microsoft.com,Proxy
@@ -80,10 +83,7 @@ DOMAIN,www.bing.com,Proxy
 
 DOMAIN-SUFFIX,api.microsoftapp.net,Proxy
 DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io,Proxy
-DOMAIN-SUFFIX,challenges.cloudflare.com,Proxy
 DOMAIN-SUFFIX,edgeservices.bing.com,Proxy
-
-IP-ASN,14061,no-resolve
 
 
 # Claude
