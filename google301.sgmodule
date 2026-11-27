@@ -1,0 +1,11 @@
+#!name=Google URL重定向
+#!desc=google.com
+#!date=2026-11-28
+
+[URL Rewrite]
+^https?:\/\/(ditu|maps)\.google\.cn https://maps.google.com 307
+^https?:\/\/(www\.)?(g|google)\.cn https://www.google.com 307
+^https?:\/\/(www\.)?google\.com\.hk https://www.google.com 307
+
+[MITM]
+hostname = %APPEND% www.google.cn, g.cn, google.cn, maps.google.cn, ditu.google.cn, *.google.com.hk
